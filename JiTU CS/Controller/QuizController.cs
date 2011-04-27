@@ -44,9 +44,9 @@ namespace JiTU_CS.Controller
             QuestionData newQuestion = new QuestionData(0);
             AnswerData correctAnswer = new AnswerData(0);
             AnswerData wrongAnswer = new AnswerData(0);
-            correctAnswer.correct = true;
-            correctAnswer.text = "This is the correct answer";
-            wrongAnswer.text = "This is a wrong answer";
+            correctAnswer.Correct = true;
+            correctAnswer.Text = "This is the correct answer";
+            wrongAnswer.Text = "This is a wrong answer";
 
             newQuestion.Text = "This is a question";
 

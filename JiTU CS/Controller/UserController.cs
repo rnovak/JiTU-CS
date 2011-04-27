@@ -76,7 +76,7 @@ namespace JiTU_CS.Controller
         /// <returns>list of student in the course</returns>
         public static List<UserData> GetStudents(CourseData course)
         {
-            return userEntity.GetStudentsByCourse(course.id);
+            return userEntity.GetStudentsByCourse(course.Id);
         }
 
         #endregion
